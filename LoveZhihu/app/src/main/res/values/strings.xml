@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">爱知乎</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+
+    <string name="about_app_name_with_introduce">爱知乎 - 更简洁的知乎日报第三方客户端</string>
+    <string name="about_introduce">介绍</string>
+    <string name="introduce">爱知乎 是一款第三方的知乎日报客户端 \n\n更全面、更方便、更快捷的获取咨询\n\n所有资讯均来自互联网，如有侵权，请告知！</string>
+    <string name="thanks_github">GitHub开源社区--Build software better, together.</string>
+    <string name="contact_to_me">联系</string>
+    <string name="email">1025202464@qq.com</string>
+
+    <string name="system_setting">系统设置</string>
+    <string name="other_setting">其他设置</string>
+    <string name="pre_loadimage_key">LOADIMAGE</string>
+    <string name="news_detile_load_image">正文中加载图片</string>
+    <string name="load_current">当前为自动加载正文中的图片（默认）</string>
+    <string name="noload_current">当前为不加载正文中的图片</string>
+
+    <string name="pref_auto_reflush_title">首次启动自动刷新</string>
+    <string name="pref_auto_page_title">自动加载更多</string>
+    <string name="pref_auto_reflush_on">自动刷新列表</string>
+    <string name="pref_auto_reflush_key">autoReflush</string>
+    <string name="pref_auto_reflush_off">手动刷新列表</string>
+    <string name="pre_fontsize_key">ACTILEFONTSIZE</string>
+    <string name="actile_font_size">正文字号</string>
+    <string name="big_font">大号字体</string>
+    <string name="medium_font">中号字体</string>
+    <string name="small_font">小号字体</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="version_update">检查更新</string>
+</resources>

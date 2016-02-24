@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AboutActivity">
+
+    <include layout="@layout/appbar_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/titleImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/about_introduce"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:padding="8dp"
+            android:text="@string/introduce"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/contact_to_me"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/label_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigation_drawer_item_height"
+            android:background="@drawable/bg_card"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="@dimen/margin_8dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_8dp"
+            android:text="@string/email"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="10dp"
+            android:text="鸣谢"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/label_thanks"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigation_drawer_item_height"
+            android:background="@drawable/bg_card"
+            android:drawableLeft="@drawable/notice"
+            android:drawablePadding="@dimen/margin_8dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_8dp"
+            android:text="@string/thanks_github"
+            android:textColor="@color/secondary_text"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</LinearLayout>
